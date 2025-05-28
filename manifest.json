@@ -5,7 +5,8 @@
   "description": "Bookmark all open tabs across all windows with a single click",
   "permissions": [
     "bookmarks",
-    "tabs"
+    "tabs",
+    "storage"
   ],
   "action": {
     "default_popup": "popup.html",
