@@ -10,12 +10,12 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icons/icon.html"
+    "default_icon": "icons/bookmark-icon.png"
   },
   "background": {
     "service_worker": "background.js"
   },
   "icons": {
-    "128": "icons/icon.html"
+    "128": "icons/bookmark-icon.png"
   }
 } 
