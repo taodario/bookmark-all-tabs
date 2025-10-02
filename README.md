@@ -5,7 +5,7 @@ Bookmark All Tabs is a chrome extension to bookmark all open tabs across all Chr
 ![Popup UI](docs/screenshot-regular.png)
 ![Success State](docs/screenshot-demo.png)
 ![History List](docs/screenshot-clear-history.png)
-![Saved Bookmark Folder](docs/screenshot-bookmark-folder.png)
+![Saved Bookmark Folder](docs/screenshot-saved-bookmark-folder.png)
 
 ---
 
