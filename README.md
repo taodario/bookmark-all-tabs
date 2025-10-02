@@ -1,35 +1,56 @@
-# Bookmark All Tabs Chrome Extension
+# Bookmark All Tabs
 
-A simple Chrome extension that allows you to bookmark all open tabs across all windows with a single click.
+Bookmark All Tabs is a chrome extension to bookmark all open tabs across all Chrome windows with a single click. It is built with Manifest V3 and the Chrome Extensions API. Try it out [here](https://chromewebstore.google.com/detail/bookmark-all-tabs/fhflnhaakgankgheoheakegafhocaolm)! 
 
-## Features
+![Popup UI](docs/screenshot-regular.png)
+![Success State](docs/screenshot-demo.png)
+![History List](docs/screenshot-clear-history.png)
+![Saved Bookmark Folder](docs/screenshot-bookmark-folder.png)
 
-- Bookmark all open tabs across all Chrome windows
-- Creates a new folder for each batch of bookmarks
-- Skips chrome:// URLs
-- Simple and intuitive interface
+---
 
-## Installation
+## How to Use
 
-1. Clone or download this repository
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right corner
-4. Click "Load unpacked" and select the extension directory
+1. Click the extension icon in the Chrome toolbar.
+2. Click "Bookmark All Tabs".
+3. The extension creates a new folder (named with the current date/time) containing bookmarks for all non-`chrome://` tabs across all open windows.
+4. See confirmation details and your recent activity in the popup.
 
-## Usage
+---
 
-1. Click the extension icon in your Chrome toolbar
-2. Click the "Bookmark All Tabs" button
-3. Wait for the confirmation message
-4. Your bookmarks will be saved in a new folder named with the current date and time
+## Installation (Load Unpacked)
 
-## Development
+1. Clone or download this repository.
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer mode" (top right).
+4. Click "Load unpacked" and select this project directory.
 
-The extension is built using:
-- Manifest V3
-- Chrome Extensions API
-- Vanilla JavaScript
+### Install from Chrome Web Store
+
+If you prefer a one-click install, get it from the Chrome Web Store:
+
+- [Install from Chrome Web Store](https://chromewebstore.google.com/detail/bookmark-all-tabs/fhflnhaakgankgheoheakegafhocaolm)
+
+---
+
+## Technologies Used
+
+This extension is built using **Manifest V3**, the latest Chrome extension standard. It leverages the **Chrome Extensions API** including the `bookmarks`, `tabs`, `storage`, and `windows` APIs for core functionality. The frontend is implemented with **vanilla JavaScript, HTML, and CSS** for a lightweight, fast user experience.
+
+---
+
+## Permissions & Privacy
+
+This extension operates entirely locally in your browser and does not send data to external servers.
+
+Required permissions:
+
+- `bookmarks`: Create and organize bookmarks of your tabs
+- `tabs`: Read open tab metadata (title and URL)
+- `storage`: Store a small, local history of your recent bookmark actions
+
+---
 
 ## License
 
-MIT License 
+MIT License
