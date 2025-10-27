@@ -1,4 +1,5 @@
 # Bookmark All Tabs
+![Chrome Webstore](docs/chrome-webstore.png)
 
 Bookmark All Tabs is a chrome extension to bookmark all open tabs across all Chrome windows with a single click. It is built with Manifest V3 and the Chrome Extensions API. Try it out [here](https://chromewebstore.google.com/detail/bookmark-all-tabs/fhflnhaakgankgheoheakegafhocaolm)! 
 
